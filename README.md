@@ -152,7 +152,7 @@ Each tool accepts a JSON object and returns a structured JSON response. All fiel
 
 1. Open the Drako World app
 2. Go to **Settings → API Keys**
-3. Click **Generate new key** — give it a name like `"claude-code"`
+3. Click **Generate new key** — give it a name like `"DW_api"`
 4. Copy the key — **it is shown only once**
 
 ### 2. Connect to Claude Code
@@ -318,7 +318,7 @@ The full key is shown **only at creation time**. The backend stores only:
 |-------|-----------|
 | `key_prefix` | First 8 characters — used for fast DB lookup |
 | `key_hash` | HMAC-SHA256 of the full key — never reversible |
-| `name` | Human label you assigned (`"claude-code"`, `"cursor"`) |
+| `name` | Human label you assigned (`"DW_api"`, `"cursor"`) |
 | `expires_at` | Optional TTL — key stops working automatically |
 | `last_used_at` | Updated on every successful request |
 
