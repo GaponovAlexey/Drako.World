@@ -1,6 +1,7 @@
 <div align="center">
 
-# 🐉 Drako World
+# <img width="355" height="355" alt="home_drako" src="https://github.com/user-attachments/assets/167c214b-83ec-45d3-bdf4-fc22308f39dd" />
+ Drako World
 
 **AI-native habit, task, note & mood tracker — powered by Model Context Protocol**
 
